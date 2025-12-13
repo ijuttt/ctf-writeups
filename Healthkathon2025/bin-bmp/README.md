@@ -24,6 +24,7 @@ I tried opening the files directly, but since they couldn’t be opened as image
 
 So i used an open-source RDP bitmap cache parser:
 ([bmc-tools](https://github.com/ANSSI-FR/bmc-tools))
+
 ![image extractions](image/bmc-extracttions.png)
 
 I passed the `-b` argument to generate collage images, since checking thousands of small bitmap tiles one by one would be crazy.
